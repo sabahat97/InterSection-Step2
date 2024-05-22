@@ -2,11 +2,11 @@ type personDetail={
     Name :string
     Age : number
 }
-type officialDetail={
+type studentDetail={
     Email:string
     Status:string
 }
-type Person = personDetail & officialDetail //intersection syntax
+type Person = personDetail & studentDetail //intersection syntax
 let detailPerson:Person ={
     Name : 'sabahat',
     Age :12,
